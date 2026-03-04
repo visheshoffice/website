@@ -1,14 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  output: 'export',
   images: {
-    domains: [
-      'cdn.sanity.io',
-
-    ],
     unoptimized: true,
   },
 };
